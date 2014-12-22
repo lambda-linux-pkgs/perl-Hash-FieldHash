@@ -70,6 +70,11 @@ find %{buildroot} -type f -name '*.bs' -a -size 0 -exec rm -f {} ';'
 %{_mandir}/man3/Hash::FieldHash.3*
 
 %changelog
+* Mon Dec 22 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 0.14-1
+- Adapt for AL/LL
+- Add package support URL
+- Import source package FC21/perl-Hash-FieldHash-0.14-1.fc21
+
 * Wed Nov 12 2014 Paul Howarth <paul@city-fan.org> - 0.14-1
 - Update to 0.14
   - Use Module::Build instead of Module::Install with minil(1)
