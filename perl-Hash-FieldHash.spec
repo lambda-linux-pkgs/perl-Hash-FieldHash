@@ -35,6 +35,9 @@ Requires:       perl(:MODULE_COMPAT_%(eval "`perl -V:version`"; echo $version))
 %{?perl_default_filter}
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Hash::FieldHash provides the field hash mechanism, which supports the inside-
 out technique.
 
