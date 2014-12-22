@@ -1,6 +1,8 @@
+%define _buildid .2
+
 Name:           perl-Hash-FieldHash
 Version:        0.14
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Lightweight field hash implementation
 License:        GPL+ or Artistic
 Group:          Development/Libraries
